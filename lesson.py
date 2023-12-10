@@ -152,3 +152,5 @@ answer.append('C')
 
 print(chose_from_two)
 print(answer)
+
+# Udemyの動画が視聴できず、本日は読書にて学習
