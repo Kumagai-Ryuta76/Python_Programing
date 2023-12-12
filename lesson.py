@@ -153,4 +153,31 @@ answer.append('C')
 print(chose_from_two)
 print(answer)
 
-# Udemyの動画が視聴できず、本日は読書にて学習
+x= {'a':10}
+y = x
+y['a'] = 1000
+print(x)
+print(y)
+
+x = {'a':1}
+y = x.copy()
+y['a'] = 1000
+print(x)
+print(y)
+
+
+# l = [
+#      ['apple' : 100],
+#      ['banana' : 200],
+#      ['orange' : 300],
+# ] リストの場合は中身を確認するプログラムを書く必要がある
+
+fruits = {
+     'apple' : 100,
+     'banana' : 200,
+     'orange' : 300,
+}
+# 中身（キー）がわかっていつものであれば{}を使って方が中身の確認が早い
+
+print(fruits['apple'])
+
