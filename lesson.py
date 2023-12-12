@@ -191,3 +191,32 @@ f = ['apple', 'banana', 'apple', 'banana']
 kind = set(f)
 print(kind)
 
+s = 'aaaaaaa' \
+     + 'bbbbbbbb'
+print(s)
+
+# バックスラッシュで1行が長くなった場合の改行が可能となる
+x = 1 + 1 + 1 + 1 + 1 + 1\
+     + 1 + 1 + 1
+# 基本的には80文字で次の行に行くルールがある
+# バックスラッシュ以外でもカッコで囲むやり方もある
+print(x)
+
+x = 10
+
+if x < 0:
+     print('negative')
+elif x == 0:
+     print('zero')
+elif x == 10:
+     print(10)
+else:
+     print('positive')
+
+a = 5
+b = 10
+
+if a > 0:
+     print('a is positive')
+     if b > 0:
+          print('b is positive')
