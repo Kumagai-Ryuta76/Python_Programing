@@ -181,3 +181,13 @@ fruits = {
 
 print(fruits['apple'])
 
+# 共通の物を調べる際は集合型を使うと良い
+my_friends = {'A', 'C', 'D'}
+A_friends = {'B', 'D', 'E', 'F'}
+print(my_friends & A_friends)
+
+f = ['apple', 'banana', 'apple', 'banana']
+# set()でリスト型[]から集合型{}へキャストしている
+kind = set(f)
+print(kind)
+
