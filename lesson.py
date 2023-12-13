@@ -220,3 +220,57 @@ if a > 0:
      print('a is positive')
      if b > 0:
           print('b is positive')
+
+# 論理演算子は基本的にJavaと同じ
+# and と　or はそのまま記述
+
+y = [1, 2, 3]
+x = 1
+
+if x in y:
+     print('in')
+
+if 100 not in y:
+          print('not in')
+
+a = 1
+b = 2
+
+# 数字での使用は好ましくない
+if not a == b:
+     print('Not epual')
+
+is_ok = True
+
+if is_ok: # == Trueとあえて比較しなくて良い:
+     print('Hello')
+
+if not is_ok:
+     print('Good by')
+
+# 値が入っていればTrueを返す
+# False,o,o.o,(),{},[],set()はfalseを返す
+is_ok = 0
+if is_ok:
+     print('Hello')
+else:
+     print('No')
+
+is_ok = 'abcdefg'
+if is_ok:
+     print('Hello')
+else:
+     print('No')
+
+# 変数の値を空にする場合
+is_empty = None
+print(is_empty)
+print(type(is_empty))
+
+if is_empty is None:
+     print('None!')
+
+#値の判定
+print(1 == True)
+# オブジェクトの判定
+print(1 is True)
