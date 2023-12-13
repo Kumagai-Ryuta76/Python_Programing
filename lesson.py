@@ -273,4 +273,10 @@ if is_empty is None:
 #値の判定
 print(1 == True)
 # オブジェクトの判定
-print(1 is True)
+# print(1 is True)
+
+count = 0
+
+while count < 5:
+     print(count)
+     count += 1
