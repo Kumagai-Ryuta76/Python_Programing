@@ -343,3 +343,17 @@ for _ in range(10): #アンスコ使用で明示的に数字を使用しない�
 
 for i, fruit in enumerate( ['apple', 'banana', 'orange']):
      print(i , fruit)
+
+days = ['Mon', 'Tue', 'Wed']
+fruits = ['apple', 'banana', 'orange']
+drinks = ['coffee', 'tea', 'beer']
+
+for day, fruit, drink in zip(days, fruits, drinks):
+     print(day, fruit, drink)
+
+d = {'x':100, 'y':200}
+
+print(d.items())
+# この場合kにキーが入りvに値が入る形となり、ループ処理が回る
+for k, v in d.items():
+     print(k, ':', v)
