@@ -300,3 +300,46 @@ while count < 5:
      count += 1
 else:
      print('Done')
+
+# while True:
+#      word = input('Enter') input関数で入力の値を返せる
+#      if word == 'OK':
+#           break
+#           print('next')
+
+some_list = [1, 2, 3, 4, 5]
+
+i = 0
+while i < len(some_list):
+     print(some_list)
+     i += 1
+
+for i in some_list:
+     print(i)
+
+for word in ['My', 'name', 'is', 'Mike']:
+     print(word)
+
+for fruit in ['apple', 'banana', 'orange']:
+     if fruit == 'banana':
+          print('stop eating')
+          break
+     print(fruit)
+
+else:
+     print('I ate all!')
+
+for i in range(10):
+     print(i)
+
+for i in range(2, 10 ,3):
+     print(i)
+
+for i in range(10):
+     print(i, 'hello')
+
+for _ in range(10): #アンスコ使用で明示的に数字を使用しないことを表わせる
+     print('Hello')
+
+for i, fruit in enumerate( ['apple', 'banana', 'orange']):
+     print(i , fruit)
